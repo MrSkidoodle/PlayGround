@@ -10,6 +10,6 @@ window.addEventListener("load", function() {
         const age = sessionStorage.getItem("age")
         document.getElementById("User").textContent=`${fname}, ${age} years old`    
     } else {
-        this.window.location.href = "../loginpage/login.html"
+        this.window.location.href = "../loginpage/index.html"
     }
 });
