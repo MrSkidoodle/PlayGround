@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: #8C8074;
+}
+.topbarsection {
+    display: flex;
+    justify-content: center;
+}
+.topbar {
+    width: 50%;
+    height: fit-content;
+    background-color: #59514C;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    position: fixed;
+}
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textfont {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.borderradius {
+    border-radius: 11px;
+}
+#parts {
+    height: 100vh;
+}
+.part1 {
+    width: 75vw;
+    height: 75vh;
+    background-color: #BFBFBF;
+}
+.part2 {
+    background-color: #59514C;
+    width: 95%;
+    height: 95%;
+}
+.part3 {
+    background-color: #8C8074;
+    width: 95%;
+    height: 90%;
+    max-height: fit-content;
+}
+.part3 h1 {
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 15px;
+}
+.nameagewidth {
+    width: 80%;
+    padding: 2%;
+    margin-bottom: 15px;
+}
+.form {
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.signupbtn {
+    padding: 2%;
+}
+.signupbtn :hover {
+    background-color: rgb(179, 179, 179);
+}
+#PleaseInput {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

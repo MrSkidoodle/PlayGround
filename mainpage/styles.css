@@ -52,3 +52,8 @@ body {
     background-color: white;
     padding: 5%;
 }
+@media screen and (max-width: 700px) {
+    .textfont {
+        font-size: 4vw
+    }
+}
